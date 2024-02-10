@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\NCacheTest.Domain\NCacheTest.Domain.csproj" />
+    <ProjectReference Include="..\NCacheTest.Infrastructure\NCacheTest.Infrastructure.csproj" />
+    <ProjectReference Include="..\NCacheTest.Application\NCacheTest.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
